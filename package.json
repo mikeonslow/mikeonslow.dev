@@ -2,12 +2,12 @@
   "name": "mikeonslow_dev",
   "version": "0.1.0",
   "scripts": {
-    "build": "npx bsb -make-world",
+    "build": "npx bsb -clean-world -make-world",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack -w",
-    "webpack:production": "NODE_ENV=production webpack",
+    "webpack:production": "NODE_ENV=production npx webpack",
     "server": "webpack-dev-server"
   },
   "keywords": [
@@ -18,8 +18,7 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "reason-react": ">=0.4.0",
-    "bs-platform": "^5.0.0"
+    "reason-react": ">=0.4.0"
   },
   "devDependencies": {
     "bs-platform": "^5.0.0",
