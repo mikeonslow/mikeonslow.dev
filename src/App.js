@@ -199,7 +199,7 @@ function App() {
                   <Panel>
                     <h5>RPM Freight Systems - Website Development</h5>
                     <p>
-                      Design and deployed website for RPM Freight Systems
+                      Designed and deployed website for RPM Freight Systems
                       <br />
                       <br />
                     </p>
@@ -230,8 +230,15 @@ function App() {
                   <Panel>
                     <h5>Elmfolio - Concept &amp; Website</h5>
                     <p>
-                      Created a website for the 2019 Detroit Tech Watch
-                      conference
+                      Concept app to help teach folks the{" "}
+                      <a
+                        href="https://elm-lang.org/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Elm
+                      </a>{" "}
+                      programming language
                       <br />
                       <br />
                     </p>
@@ -370,8 +377,16 @@ function App() {
                   <Panel>
                     <h5>brewfinder.org - Website Development</h5>
                     <p>
-                      Created previous informational website for my work and
-                      info about me
+                      Created project to help introduce folks to building sites
+                      with{" "}
+                      <a
+                        href="http:/elm-lang.org/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Elm
+                      </a>{" "}
+                      and deploying to a serverless platform.
                       <br />
                       <br />
                     </p>
