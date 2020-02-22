@@ -9,8 +9,8 @@ import {
   CardImg,
   CardText
 } from "reactstrap";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faUserFriends, faBuilding } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUserFriends, faBuilding } from "@fortawesome/free-solid-svg-icons";
 const EventsAndGroups = props => {
   return (
     <Container>
@@ -34,7 +34,7 @@ const EventsAndGroups = props => {
               alt="Detroit Tech Watch Conference 2019"
             />
             <CardHeader className="bg-secondary text-light">
-              {/* <FontAwesomeIcon icon={faBuilding} size="lg" />  */}
+              <FontAwesomeIcon icon={faBuilding} size="lg" />
               Detroit Tech Watch - Conference
             </CardHeader>
             <CardBody>
@@ -57,7 +57,7 @@ const EventsAndGroups = props => {
               alt="Detroit Tech Watch Conference 2019"
             />
             <CardHeader className="bg-secondary text-light">
-              {/* <FontAwesomeIcon icon={faUserFriends} size="lg" /> */}
+              <FontAwesomeIcon icon={faUserFriends} size="lg" />
               Detroit Tech Watch - Monthly Meetup
             </CardHeader>
             <CardBody>

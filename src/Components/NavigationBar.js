@@ -1,16 +1,16 @@
 import { BrowserRouter, Link, Route, Switch } from "react-router-dom";
 import React, { useState } from "react";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {
-//   faGithub,
-//   faLinkedinIn,
-//   faTwitter
-// } from "@fortawesome/free-brands-svg-icons";
-// import {
-//   faAddressCard,
-//   faWindowRestore,
-//   faCalendarAlt
-// } from "@fortawesome/free-regular-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faLinkedinIn,
+  faTwitter
+} from "@fortawesome/free-brands-svg-icons";
+import {
+  faAddressCard,
+  faWindowRestore,
+  faCalendarAlt
+} from "@fortawesome/free-regular-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import {
   Collapse,
@@ -33,25 +33,25 @@ const NavigationBar = props => {
         <img src="favicon.png" alt="Mike Onslow's logo" />
       </NavbarBrand>
       <NavbarToggler onClick={toggle} color="light">
-        {/* <FontAwesomeIcon icon={faBars} size="lg" className="text-secondary" /> */}
+        <FontAwesomeIcon icon={faBars} size="lg" className="text-secondary" />
       </NavbarToggler>
       <Collapse isOpen={isOpen} navbar>
         <Nav className="mr-auto" navbar>
           <NavItem>
             <NavLink href="/">
-              {/* <FontAwesomeIcon icon={faAddressCard} size="lg" /> */}
+              <FontAwesomeIcon icon={faAddressCard} size="lg" />
               Intro
             </NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/projects">
-              {/* <FontAwesomeIcon icon={faWindowRestore} size="lg" /> */}
+              <FontAwesomeIcon icon={faWindowRestore} size="lg" />
               Projects
             </NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/events_and_groups">
-              {/* <FontAwesomeIcon icon={faCalendarAlt} size="lg" /> */}
+              <FontAwesomeIcon icon={faCalendarAlt} size="lg" />
               &nbsp;Events &amp; Groups
             </NavLink>
           </NavItem>
@@ -63,7 +63,7 @@ const NavigationBar = props => {
               target="_blank"
               color="secondary"
             >
-              {/* <FontAwesomeIcon icon={faGithub} size="lg" /> */}
+              <FontAwesomeIcon icon={faGithub} size="lg" />
             </NavLink>
           </NavItem>
           <NavItem>
@@ -72,12 +72,12 @@ const NavigationBar = props => {
               target="_blank"
               color="secondary"
             >
-              {/* <FontAwesomeIcon icon={faLinkedinIn} size="lg" /> */}
+              <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
             </NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="https://twitter.com/mike_onslow" target="_blank">
-              {/* <FontAwesomeIcon icon={faTwitter} size="lg" /> */}
+              <FontAwesomeIcon icon={faTwitter} size="lg" />
             </NavLink>
           </NavItem>
         </Nav>
