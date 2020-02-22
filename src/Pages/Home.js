@@ -10,8 +10,8 @@ import {
   Button
 } from "reactstrap";
 
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faPaperPlane } from "@fortawesome/free-regular-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPaperPlane } from "@fortawesome/free-regular-svg-icons";
 
 const Home = props => {
   return (
@@ -52,8 +52,14 @@ const Home = props => {
                 area.
               </CardText>
               <CardText className="text-light">
-                <Button color="primary" outline size="lg">
-                  {/* <FontAwesomeIcon icon={faPaperPlane} size="lg" /> */}
+                <Button
+                  color="primary"
+                  outline
+                  size="lg"
+                  href="mailto:mikeonslow@gmail.com"
+                >
+                  &nbsp;
+                  <FontAwesomeIcon icon={faPaperPlane} size="lg" />
                   CONTACT MIKE
                 </Button>
               </CardText>
