@@ -34,8 +34,8 @@ const EventsAndGroups = props => {
               alt="Detroit Tech Watch Conference 2019"
             />
             <CardHeader className="bg-secondary text-light">
-              <FontAwesomeIcon icon={faBuilding} size="lg" />
-              Detroit Tech Watch - Conference
+              <FontAwesomeIcon icon={faBuilding} size="lg" /> Detroit Tech Watch
+              - Conference
             </CardHeader>
             <CardBody>
               <CardText>
@@ -57,8 +57,8 @@ const EventsAndGroups = props => {
               alt="Detroit Tech Watch Conference 2019"
             />
             <CardHeader className="bg-secondary text-light">
-              <FontAwesomeIcon icon={faUserFriends} size="lg" />
-              Detroit Tech Watch - Monthly Meetup
+              <FontAwesomeIcon icon={faUserFriends} size="lg" /> Detroit Tech
+              Watch - Monthly Meetup
             </CardHeader>
             <CardBody>
               <CardText>
