@@ -51,7 +51,7 @@ const Home = props => {
                 and a conference focused on new technology in the Metro Detroit
                 area.
               </CardText>
-              <CardText className="text-light">
+              <CardText className="text-light text-center">
                 <Button
                   color="primary"
                   outline
