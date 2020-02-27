@@ -47,8 +47,8 @@ const Home = props => {
                 around me!
               </CardText>
               <CardText className="text-light">
-                I also love growing the tech community and host several meetups
-                and a conference focusued on new technology in the metro Detroit
+                I also love growing the tech community and host several meetups,
+                and a conference focused on new technology in the Metro Detroit
                 area.
               </CardText>
               <CardText className="text-light">
