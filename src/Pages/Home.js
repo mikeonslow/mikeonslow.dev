@@ -59,8 +59,7 @@ const Home = props => {
                   href="mailto:mikeonslow@gmail.com"
                 >
                   &nbsp;
-                  <FontAwesomeIcon icon={faPaperPlane} size="lg" />
-                  CONTACT MIKE
+                  <FontAwesomeIcon icon={faPaperPlane} size="lg" /> CONTACT MIKE
                 </Button>
               </CardText>
             </CardBody>
