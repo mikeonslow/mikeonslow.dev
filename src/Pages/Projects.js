@@ -4,7 +4,7 @@ import ProjectCard from "../Components/ProjectCard";
 
 const projects = [
   {
-    title: "Detroit Tech Watch 2019",
+    title: "Detroit Tech Watch 2019 - Website Design/Development",
     url: "https://2019.detroittechwatch.org",
     types: ["Website"],
     src: "dtw2019.png",
@@ -24,7 +24,7 @@ const projects = [
     ]
   },
   {
-    title: "Reverse Church",
+    title: "Reverse Church - Website Design/Development",
     url: null,
     types: ["Website Development", "Blog Development"],
     src: "reverse.png",
@@ -40,7 +40,7 @@ const projects = [
     ]
   },
   {
-    title: "Detroit Tech Watch 2020",
+    title: "Detroit Tech Watch 2020 - Website Design/Development",
     url: "https://detroittechwatch.org",
     types: ["Website Design/Development", "API Development"],
     src: "dtw2020.png",
@@ -59,7 +59,7 @@ const projects = [
     ]
   },
   {
-    title: "RPM Freight Systems",
+    title: "RPM Freight Systems - Website Design/Development",
     url: null,
     types: ["Website Design/Development"],
     src: "rpm.png",
