@@ -39,20 +39,18 @@ const NavigationBar = props => {
         <Nav className="mr-auto" navbar>
           <NavItem>
             <NavLink href="/">
-              <FontAwesomeIcon icon={faAddressCard} size="lg" />
-              Intro
+              <FontAwesomeIcon icon={faAddressCard} size="lg" /> Intro
             </NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/projects">
-              <FontAwesomeIcon icon={faWindowRestore} size="lg" />
-              Projects
+              <FontAwesomeIcon icon={faWindowRestore} size="lg" /> Projects
             </NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/events_and_groups">
-              <FontAwesomeIcon icon={faCalendarAlt} size="lg" />
-              &nbsp;Events &amp; Groups
+              <FontAwesomeIcon icon={faCalendarAlt} size="lg" /> Events &amp;
+              Groups
             </NavLink>
           </NavItem>
         </Nav>
