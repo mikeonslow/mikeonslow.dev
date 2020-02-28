@@ -76,7 +76,7 @@ const TechPanel = props => {
   const { technology } = props;
 
   return (
-    <Card className="" color="dark">
+    <Card className="" color="secondary text-light">
       <CardImg
         src={"/images/tech/" + technology.src}
         alt={technology.name + " Logo"}
@@ -85,8 +85,8 @@ const TechPanel = props => {
       {/* <CardBody>
         <CardText>desc</CardText>
       </CardBody> */}
-      <CardFooter className="text-center align-middle">
-        <CardLink href={technology.href} target="_blank">
+      <CardFooter className="text-center align-middle bg-secondary text-light">
+        <CardLink href={technology.href} target="_blank" className="text-light">
           {technology.name}
         </CardLink>
       </CardFooter>

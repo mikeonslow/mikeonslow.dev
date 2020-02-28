@@ -42,11 +42,8 @@ const TestimonialPanel = props => {
   const { testimonial } = props;
 
   return (
-    <Card className="text-light text-justify" color="dark">
-      <CardBody>
-        <CardText>{testimonial.description}</CardText>
-      </CardBody>
-      <CardFooter className="bg-dark text-primary text-center">
+    <Card className="text-justify" color="dark">
+      <CardHeader className="bg-secondary text-light text-center">
         <img
           src={"/images/testimonials/" + testimonial.src}
           alt={testimonial.name}
@@ -56,7 +53,10 @@ const TestimonialPanel = props => {
         {testimonial.name}
         <br />
         {testimonial.job}
-      </CardFooter>
+      </CardHeader>
+      <CardBody className="text-light">
+        <CardText>{testimonial.description}</CardText>
+      </CardBody>
     </Card>
   );
 };
