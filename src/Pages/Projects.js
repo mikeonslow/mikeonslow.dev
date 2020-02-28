@@ -188,7 +188,7 @@ const projects = [
 
 const Projects = props => {
   const projectList = projects.map((project, i) => (
-    <Col sm={12} md={4} key={i} className="mb-5 d-flex align-items-stretch">
+    <Col sm={12} md={6} key={i} className="mb-5 d-flex align-items-stretch">
       <ProjectCard project={project} key={i} />
     </Col>
   ));
@@ -199,7 +199,7 @@ const Projects = props => {
         <Col sm={12}>
           <h1 className="display-4 text-primary">Projects</h1>
           <h5 className="display-6 subhead text-light">
-            Recent and past projects I've done
+            A sample of projects I've done over the years
           </h5>
         </Col>
       </Row>

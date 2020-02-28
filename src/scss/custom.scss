@@ -21,11 +21,21 @@ body {
 
 h1,
 h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 300;
   text-align: center;
 }
 
 .custom-toggler.navbar-toggler {
   background-image: url('data:image/svg+xml;charset="utf-8",%3Csvg xmlns="http://www.w3.org/2000/svg" …miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22/%3E%3C/svg%3E"');
+}
+
+.avatar {
+  width: 80px;
+  border-radius: 80px;
+  border: 2px solid #e98a00;
 }
 
 .navbar-brand img {

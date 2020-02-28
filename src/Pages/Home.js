@@ -6,12 +6,17 @@ import {
   Card,
   CardBody,
   CardHeader,
+  CardFooter,
+  CardImg,
   CardText,
   Button
 } from "reactstrap";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-regular-svg-icons";
+
+import TechnologyList from "../Components/TechnologiesList";
+import TestimonialList from "../Components/TestimonialList";
 
 const Home = props => {
   return (
@@ -20,14 +25,13 @@ const Home = props => {
         <Col sm={12}>&nbsp;</Col>
       </Row>
       <Row>
-        <Col sm={12} md={6} lg={7} className="bg-primary">
+        <Col sm={12} md={6} lg={7} className="bg-primary mb-4 mb-md-0">
           <img
             src="images/thinkincode.png"
             className="img-fluid"
             alt="Progressive Web Apps"
           />
         </Col>
-
         <Col sm={12} md={6} lg={5}>
           <Card className="" color="dark">
             <CardHeader>
@@ -51,21 +55,50 @@ const Home = props => {
                 and a conference focused on new technology in the Metro Detroit
                 area.
               </CardText>
-              <CardText className="text-light text-center">
-                <Button
-                  color="primary"
-                  outline
-                  size="lg"
-                  href="mailto:mikeonslow@gmail.com"
-                >
-                  &nbsp;
-                  <FontAwesomeIcon icon={faPaperPlane} size="lg" /> CONTACT MIKE
-                </Button>
-              </CardText>
             </CardBody>
+            <CardFooter>
+              <Button
+                color="primary"
+                outline
+                size="lg"
+                href="mailto:mikeonslow@gmail.com"
+                block
+              >
+                &nbsp;
+                <FontAwesomeIcon icon={faPaperPlane} size="lg" /> CONTACT MIKE
+              </Button>
+            </CardFooter>
           </Card>
         </Col>
       </Row>
+      <Row>
+        <Col sm={12}>&nbsp;</Col>
+      </Row>
+      <Row>
+        <Col sm={12}>
+          <h1 className="display-6 text-primary">
+            Nice words from people I've worked with:
+          </h1>
+        </Col>
+      </Row>
+      <Row>
+        <Col sm={12}>&nbsp;</Col>
+      </Row>
+      <TestimonialList />
+      <Row>
+        <Col sm={12}>&nbsp;</Col>
+      </Row>
+      <Row>
+        <Col sm={12}>
+          <h1 className="display-6 text-primary">
+            Technologies I'm excited about, and currently working with:
+          </h1>
+        </Col>
+      </Row>
+      <Row>
+        <Col sm={12}>&nbsp;</Col>
+      </Row>
+      <TechnologyList />
     </Container>
   );
 };
