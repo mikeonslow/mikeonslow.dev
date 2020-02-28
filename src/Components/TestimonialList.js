@@ -43,7 +43,7 @@ const TestimonialPanel = props => {
 
   return (
     <Card className="text-justify" color="dark">
-      <CardHeader className="bg-secondary text-light text-center">
+      <CardHeader className="text-secondary text-center">
         <img
           src={"/images/testimonials/" + testimonial.src}
           alt={testimonial.name}
