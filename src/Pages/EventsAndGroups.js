@@ -5,6 +5,7 @@ import {
   Col,
   Card,
   CardBody,
+  CardFooter,
   CardHeader,
   CardImg,
   CardText
@@ -27,7 +28,7 @@ const EventsAndGroups = props => {
       </Row>
       <Row>
         <Col sm={12} md={6}>
-          <Card className="mb-3" color="light">
+          <Card className="mb-3" color="dark" className="text-light">
             {" "}
             <CardImg
               src="/images/dtwconf.jpeg"
@@ -44,14 +45,16 @@ const EventsAndGroups = props => {
                 progressive ideas, and the importance of continuous learning in
                 software development.
               </CardText>
+            </CardBody>
+            <CardFooter>
               <a href="https://detroittechwatch.org" target="_blank">
                 https://detroittechwatch.org
               </a>
-            </CardBody>
+            </CardFooter>
           </Card>
         </Col>
         <Col sm={12} md={6}>
-          <Card className="mb-3" color="light">
+          <Card className="mb-3" color="dark" className="text-light">
             <CardImg
               src="/images/dtwmeetup.png"
               alt="Detroit Tech Watch Conference 2019"
@@ -65,13 +68,15 @@ const EventsAndGroups = props => {
                 A group focusing on new technology in the software development
                 space.{" "}
               </CardText>
+            </CardBody>{" "}
+            <CardFooter>
               <a
                 href="https://www.meetup.com/Detroit-Tech-Watch"
                 target="_blank"
               >
                 https://www.meetup.com/Detroit-Tech-Watch
               </a>
-            </CardBody>
+            </CardFooter>
           </Card>
         </Col>
       </Row>

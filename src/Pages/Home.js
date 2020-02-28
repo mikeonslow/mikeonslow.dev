@@ -46,9 +46,9 @@ const Home = props => {
                 .
               </CardText>
               <CardText className="text-light">
-                I love solving problems and have a passion for creating great
-                web and mobile applications that make life better for those
-                around me!
+                I love solving problems, and have a passion for creating great
+                cloud, web and mobile applications that make life better for
+                those around me!
               </CardText>
               <CardText className="text-light">
                 I also love growing the tech community and host several meetups,
@@ -58,11 +58,11 @@ const Home = props => {
             </CardBody>
             <CardFooter>
               <Button
-                color="primary"
-                outline
+                color="secondary"
                 size="lg"
                 href="mailto:mikeonslow@gmail.com"
                 block
+                className="text-light"
               >
                 &nbsp;
                 <FontAwesomeIcon icon={faPaperPlane} size="lg" /> CONTACT MIKE
