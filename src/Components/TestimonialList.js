@@ -50,6 +50,7 @@ const TestimonialPanel = props => {
           className="avatar"
         />
         <br />
+        <br />
         {testimonial.name}
         <br />
         {testimonial.job}
