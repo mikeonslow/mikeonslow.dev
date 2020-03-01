@@ -62,11 +62,11 @@ const Home = props => {
                 size="lg"
                 href="mailto:mikeonslow@gmail.com"
                 block
-                className="text-light"
+                className="text-dark"
               >
                 &nbsp;
                 <FontAwesomeIcon icon={faPaperPlane} size="2x" />
-                <br /> CONTACT MIKE
+                <br /> GET IN TOUCH WITH MIKE
               </Button>
             </CardFooter>
           </Card>
