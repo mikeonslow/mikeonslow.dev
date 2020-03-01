@@ -35,7 +35,7 @@ const Home = props => {
         <Col sm={12} md={6} lg={5}>
           <Card className="" color="dark">
             <CardHeader>
-              <h1 className="display-4 text-secondary">Hello!</h1>
+              <h1 className="display-4 text-primary">Hello!</h1>
             </CardHeader>
             <CardBody>
               <CardText className="text-light">
@@ -65,7 +65,8 @@ const Home = props => {
                 className="text-light"
               >
                 &nbsp;
-                <FontAwesomeIcon icon={faPaperPlane} size="lg" /> CONTACT MIKE
+                <FontAwesomeIcon icon={faPaperPlane} size="2x" />
+                <br /> CONTACT MIKE
               </Button>
             </CardFooter>
           </Card>
