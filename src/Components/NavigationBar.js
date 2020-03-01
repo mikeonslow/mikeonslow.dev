@@ -1,4 +1,3 @@
-import { BrowserRouter, Link, Route, Switch } from "react-router-dom";
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

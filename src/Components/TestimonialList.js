@@ -1,15 +1,5 @@
 import React from "react";
-import {
-  Card,
-  CardImg,
-  CardText,
-  CardBody,
-  CardFooter,
-  CardHeader,
-  CardLink,
-  Col,
-  Row
-} from "reactstrap";
+import { Card, CardText, CardBody, CardHeader, Col, Row } from "reactstrap";
 
 const TestimonialList = props => {
   const testimonials = [

@@ -7,7 +7,6 @@ import {
   CardBody,
   CardHeader,
   CardFooter,
-  CardImg,
   CardText,
   Button
 } from "reactstrap";
@@ -40,7 +39,11 @@ const Home = props => {
             <CardBody>
               <CardText className="text-light">
                 My name is Mike Onslow, and I'm a Principal Software Engineer at{" "}
-                <a href="https://clarityvoice.com/" target="_blank">
+                <a
+                  href="https://clarityvoice.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Clarity Voice
                 </a>
                 .

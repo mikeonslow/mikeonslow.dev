@@ -28,7 +28,7 @@ const EventsAndGroups = props => {
       </Row>
       <Row>
         <Col sm={12} md={6}>
-          <Card className="mb-3" color="dark" className="text-light">
+          <Card className="mb-3 text-light" color="dark">
             {" "}
             <CardImg
               src="/images/dtwconf.jpeg"
@@ -47,14 +47,18 @@ const EventsAndGroups = props => {
               </CardText>
             </CardBody>
             <CardFooter>
-              <a href="https://detroittechwatch.org" target="_blank">
+              <a
+                href="https://detroittechwatch.org"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 https://detroittechwatch.org
               </a>
             </CardFooter>
           </Card>
         </Col>
         <Col sm={12} md={6}>
-          <Card className="mb-3" color="dark" className="text-light">
+          <Card className="mb-3 text-light" color="dark">
             <CardImg
               src="/images/dtwmeetup.png"
               alt="Detroit Tech Watch Conference 2019"
@@ -73,6 +77,7 @@ const EventsAndGroups = props => {
               <a
                 href="https://www.meetup.com/Detroit-Tech-Watch"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 https://www.meetup.com/Detroit-Tech-Watch
               </a>

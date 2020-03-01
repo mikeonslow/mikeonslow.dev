@@ -1,15 +1,5 @@
 import React from "react";
-import {
-  Card,
-  CardImg,
-  CardText,
-  CardBody,
-  CardFooter,
-  CardHeader,
-  CardLink,
-  Col,
-  Row
-} from "reactstrap";
+import { Card, CardImg, CardFooter, CardLink, Col, Row } from "reactstrap";
 
 const TechnologyList = props => {
   const technologies = [
