@@ -197,7 +197,7 @@ const Projects = props => {
     <Container>
       <Row>
         <Col sm={12}>
-          <h1 className="display-4 text-primary">Projects</h1>
+          <h1 className="display-4 text-secondary">Projects</h1>
           <h5 className="display-6 subhead text-light">
             A sample of projects I've done over the years
           </h5>

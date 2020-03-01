@@ -9,7 +9,7 @@ const NotFound = props => {
           &nbsp;
         </Col>
         <Col sm={12} md={8}>
-          <h1 className="display-4 text-primary">Page Not Found</h1>
+          <h1 className="display-4 text-secondary">Page Not Found</h1>
           <img
             src="404.png"
             className="img-fluid"

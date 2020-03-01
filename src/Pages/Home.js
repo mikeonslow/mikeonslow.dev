@@ -35,7 +35,7 @@ const Home = props => {
         <Col sm={12} md={6} lg={5}>
           <Card className="" color="dark">
             <CardHeader>
-              <h1 className="display-4 text-primary">Hello!</h1>
+              <h1 className="display-4 text-secondary">Hello!</h1>
             </CardHeader>
             <CardBody>
               <CardText className="text-light">
@@ -76,7 +76,7 @@ const Home = props => {
       </Row>
       <Row>
         <Col sm={12}>
-          <h1 className="display-6 text-primary">
+          <h1 className="display-6 text-secondary">
             Nice words from people I've worked with:
           </h1>
         </Col>
@@ -90,7 +90,7 @@ const Home = props => {
       </Row>
       <Row>
         <Col sm={12}>
-          <h1 className="display-6 text-primary">
+          <h1 className="display-6 text-secondary">
             Technologies I'm excited about, and currently working with:
           </h1>
         </Col>

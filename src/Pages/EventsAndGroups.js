@@ -17,7 +17,7 @@ const EventsAndGroups = props => {
     <Container>
       <Row>
         <Col sm={12}>
-          <h1 className="display-4 text-primary">Events &amp; Groups</h1>
+          <h1 className="display-4 text-secondary">Events &amp; Groups</h1>
           <h5 className="display-6 subhead text-light">
             Information on groups and events I co-organize
           </h5>
