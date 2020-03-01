@@ -6,49 +6,49 @@ const TechnologyList = props => {
     { name: "ReactJS", src: "react.png", href: "https://reactjs.org" },
     {
       name: "React Native",
-      src: "react_native.png",
+      src: "react_native.svg",
       href: "https://reactnative.dev/"
     },
     { name: "Redux", src: "redux.png", href: "https://redux.js.org" },
     {
       name: "TypeScript",
-      src: "ts.png",
+      src: "ts.svg",
       href: "https://www.typescriptlang.org"
     },
     {
       name: "JAMstack (Serverless)",
-      src: "jamstack.png",
+      src: "jamstack.svg",
       href: "https://jamstack.org"
     },
     {
       name: "Sass",
-      src: "sass.png",
+      src: "sass.svg",
       href: "https://sass-lang.com"
     },
     {
       name: "JavaScript (ES6+)",
-      src: "js.png",
+      src: "js.svg",
       href: "https://www.javascript.com"
     },
     { name: "Elixir", src: "elixir.png", href: "https://elixir-lang.org" },
     {
       name: "Phoenix Framework",
-      src: "phoenix.png",
+      src: "phoenix.svg",
       href: "https://www.phoenixframework.org"
     },
     {
       name: "Google Cloud Platform",
-      src: "gcp.png",
+      src: "gcp.svg",
       href: "https://cloud.google.com"
     },
     {
       name: "Google Cloud Functions",
-      src: "gcf.png",
+      src: "gcf.svg",
       href: "https://cloud.google.com/functions"
     },
     {
       name: "Elm",
-      src: "elm.png",
+      src: "elm.svg",
       href: "https://elm-lang.org"
     }
   ];
