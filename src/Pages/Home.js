@@ -27,7 +27,7 @@ const Home = props => {
       <Row>
         <Col sm={12} md={6} lg={7} className="bg-primary mb-4 mb-md-0">
           <img
-            src="images/thinkincode.png"
+            src="images/hello.svg"
             className="img-fluid"
             alt="Progressive Web Apps"
           />
