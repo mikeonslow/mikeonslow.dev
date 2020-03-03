@@ -81,7 +81,7 @@ const Home = props => {
       <Row>
         <Col sm={12}>
           <h1 className="display-6 text-secondary">
-            Nice words from people I've worked with:
+            Kind words, from people I've worked with:
           </h1>
         </Col>
       </Row>
