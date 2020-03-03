@@ -3,13 +3,13 @@ import { Card, CardImg, CardFooter, CardLink, Col, Row } from "reactstrap";
 
 const TechnologyList = props => {
   const technologies = [
-    { name: "ReactJS", src: "react.png", href: "https://reactjs.org" },
+    { name: "ReactJS", src: "react.svg", href: "https://reactjs.org" },
     {
       name: "React Native",
       src: "react_native.svg",
       href: "https://reactnative.dev/"
     },
-    { name: "Redux", src: "redux.png", href: "https://redux.js.org" },
+    { name: "Redux", src: "redux.svg", href: "https://redux.js.org" },
     {
       name: "TypeScript",
       src: "ts.svg",
