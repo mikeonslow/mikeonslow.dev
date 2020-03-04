@@ -4,6 +4,23 @@ import ProjectCard from "../Components/ProjectCard";
 
 const projects = [
   {
+    title: "Subject Wine - Website Design/Development",
+    url: "https://subjective.wine",
+    types: ["Website"],
+    src: "subjective-wine.png",
+    description:
+      'Designed and build landing page for new startup "Subjective Wine"',
+    technologies: [
+      "React",
+      "JavaScript",
+      "Twitter Bootstrap",
+      "HTML 5",
+      "Sass",
+      "CSS 3",
+      "Webpack"
+    ]
+  },
+  {
     title: "Detroit Tech Watch 2019 - Website Design/Development",
     url: "https://2019.detroittechwatch.org",
     types: ["Website"],
@@ -149,7 +166,7 @@ const projects = [
   },
   {
     title: "Clarity Wiki - Application Development",
-    url: "http://mikeonslow.info",
+    url: "",
     types: ["Website Design/Development"],
     src: "dox.png",
     description:
