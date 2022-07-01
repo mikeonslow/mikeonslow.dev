@@ -148,7 +148,7 @@ const projects = [
   },
   {
     title: "mikeonslow.info - Website Development",
-    url: "http://mikeonslow.info",
+    url: "",
     types: ["Website Design/Development"],
     src: "mikeonslow.info.png",
     description:
