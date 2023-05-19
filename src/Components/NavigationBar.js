@@ -8,7 +8,8 @@ import {
 import {
   faAddressCard,
   faWindowRestore,
-  faCalendarAlt
+  faCalendarAlt,
+  faCoffee
 } from "@fortawesome/free-regular-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import {
