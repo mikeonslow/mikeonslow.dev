@@ -54,7 +54,7 @@ const NavigationBar = props => {
           </NavItem>
           <NavItem>
             <NavLink href="https://medium.com/@mike_onslow">
-              <FontAwesomeIcon icon={faPenNib} size="lg" /> Blog &amp;
+              <FontAwesomeIcon icon={faCoffee} size="lg" /> Blog &amp;
               Groups
             </NavLink>
           </NavItem>
