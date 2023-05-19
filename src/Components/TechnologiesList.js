@@ -37,16 +37,6 @@ const TechnologyList = props => {
       href: "https://www.phoenixframework.org"
     },
     {
-      name: "Google Cloud Platform",
-      src: "gcp.svg",
-      href: "https://cloud.google.com"
-    },
-    {
-      name: "Google Cloud Functions",
-      src: "gcf.svg",
-      href: "https://cloud.google.com/functions"
-    },
-    {
       name: "Elm",
       src: "elm.svg",
       href: "https://elm-lang.org"

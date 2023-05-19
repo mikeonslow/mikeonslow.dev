@@ -21,6 +21,18 @@ const projects = [
     ]
   },
   {
+    title: "Artificial Antics (antics.tv)",
+    url: "https://antics.tv",
+    types: ["Website"],
+    src: "anticstv.png",
+    description:
+      'Designed and build landing page for my new podcast "Artificial Antics"',
+    technologies: [
+      "Tailwind",
+      "HTML 5"
+    ]
+  },
+  {
     title: "Detroit Tech Watch 2019 - Website Design/Development",
     url: "https://2019.detroittechwatch.org",
     types: ["Website"],
