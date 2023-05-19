@@ -52,6 +52,12 @@ const NavigationBar = props => {
               Groups
             </NavLink>
           </NavItem>
+          <NavItem>
+            <NavLink href="https://medium.com/@mike_onslow">
+              <FontAwesomeIcon icon={faPenNib} size="lg" /> Blog &amp;
+              Groups
+            </NavLink>
+          </NavItem>
         </Nav>
         <Nav>
           <NavItem>
